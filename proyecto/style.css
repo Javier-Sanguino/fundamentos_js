@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #eceaea;
+}
+
+.contenedor {
+  background-color: grey;
+  width: 500px;
+  height: 500px;
+  margin: 5% auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.color {
+  width: 250px;
+  height: 250px;
+}
+
+.rojo {
+  background-color: #ff0000;
+}
+.rojo.light {
+  background-color: #ff6969;
+}
+.azul {
+  background-color: #0000ff;
+}
+.azul.light {
+  background-color: #6262ff;
+}
+.amarillo {
+  background-color: #ffff00;
+}
+.amarillo.light {
+  background-color: #fefe6b;
+}
+.verde {
+  background-color: #008000;
+}
+.verde.light {
+  background-color: #01b901;
+}
+.boton {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  width: 40vw;
+  height: 10vh;
+  transition: 0.5s;
+  font-size: 3em;
+}
+
+.hide {
+  display: none;
+}
